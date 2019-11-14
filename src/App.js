@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ExchangedCurrency from './components/CurrencyConverter';
 
 class App extends Component {
   render() {
     return (
-      <div>
-
-      </div>
+      <>
+      <h2>And now hear this</h2>
+        <ExchangedCurrency />
+        
+      </>
     );
   }
 }
-
 export default App;
